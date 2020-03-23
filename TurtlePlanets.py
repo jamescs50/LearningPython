@@ -96,18 +96,20 @@ members.append(tim)
 members.append(tom)
 members.append(tammy)
 
-for i in range(5):
-        k = turtle.Turtle()
-        k.name = str(i)
-        k.shape('classic')
-        k.color('green')
-        k.mass=0.001
-        k.penup()
-        k.left(random.randint(0,360))
-        k.forward(random.randint(100,300))
-        k.right(90)
-        k.velocity = random.randint(8,16)
-        members.append(k)
+
+
+#for i in range(5):
+#        k = turtle.Turtle()
+#        k.name = str(i)
+#        k.shape('classic')
+#        k.color('green')
+#        k.mass=0.001
+#        k.penup()
+#        k.left(random.randint(0,360))
+#        k.forward(random.randint(100,300))
+#        k.right(90)
+#        k.velocity = random.randint(8,16)
+#        members.append(k)
         
 
 
